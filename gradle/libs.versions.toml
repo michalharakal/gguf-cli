@@ -1,0 +1,11 @@
+[versions]
+junit = "4.13.2"
+kotlin = "2.0.21"
+kotlinxIo = "0.6.0"
+skainet = "0.0.1"
+
+[libraries]
+kotlinx-io-core = { module = "org.jetbrains.kotlinx:kotlinx-io-core", version.ref = "kotlinxIo" }
+skainet-core = { module = "sk.ai.net:core", version.ref = "skainet" }
+skainet-io = { module = "sk.ai.net:io", version.ref = "skainet" }
+skainet-gguf = { module = "sk.ai.net:gguf", version.ref = "skainet" }
